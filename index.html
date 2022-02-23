@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NChess</title>
+
+    <style>
+        body {
+            background-color: rgb(22, 22, 28);
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="board_canv"></canvas>
+    <p id="board-eval" style="font-family: sans-serif; font-size: 1em; color: white;">Board Evaluation: 0.0, Paths Evaluated: 0</p>
+    <p style="font-family: sans-serif; font-size: 1em; color: white;">Seite reloaden zum Neustarten</p>
+
+    <script src="src/piece_data.js"></script>
+    <script src="src/chess.js"></script>
+    <script src="src/board.js"></script>
+    <script src="src/engine.js"></script>
+    <script src="src/index.js"></script>
+
+</body>
+</html>
